@@ -1,3 +1,5 @@
+import { abs } from "prelude-ls";
+
 export function Mercury(age) {
   this.age = age;
 };
@@ -8,6 +10,6 @@ Mercury.prototype.calculateMerAge = function() {
 };
 
 Mercury.prototype.lifeExpMercury = function() {
-  let lifeExpMerc = (100 - (this.age * 365)/88);
+  let lifeExpMerc = abs(100 - (this.age * 365)/88);
   return lifeExpMerc;
 };
