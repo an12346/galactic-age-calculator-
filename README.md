@@ -3,11 +3,11 @@
 3. Commit red test ~
 3. Pass Test ~
 3. Commit test ~
-4. Create constructor for Venus years
-5. Create test for Venus constructor
-6. Commit test
- -Create passing test
- -Commit final test
+4. Create constructor for Venus years~
+5. Create test for Venus constructor ~
+6. Commit test ~
+ -Create passing test ~
+ -Commit final test ~
 7. Create constructor for Mars years
 8. Create test for Mars constructor
 9. commit test
