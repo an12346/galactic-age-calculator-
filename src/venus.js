@@ -1,5 +1,6 @@
-export function Venus(age) {
+export function Venus(age, lifeExpectancy) {
   this.age = age;
+  this.lifeExpectancy = lifeExpectancy;
 };
 
 Venus.prototype.calculateVenusAge = function() {
@@ -8,7 +9,7 @@ Venus.prototype.calculateVenusAge = function() {
 };
 
 Venus.prototype.lifeExpVenus = function() {
-  let lifeExpVen = 100 - (this.age * 365)/225;
+  let lifeExpVen = this.lifeExpectancy - (this.age * 365)/225;
   return Math.abs(lifeExpVen);
 };
 

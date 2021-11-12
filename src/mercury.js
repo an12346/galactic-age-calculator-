@@ -1,5 +1,6 @@
-export function Mercury(age) {
+export function Mercury(age, lifeExpectancy) {
   this.age = age;
+  this.lifeExpectancy = lifeExpectancy;
 };
 
 Mercury.prototype.calculateMerAge = function() {
@@ -8,6 +9,6 @@ Mercury.prototype.calculateMerAge = function() {
 };
 
 Mercury.prototype.lifeExpMercury = function() {
-  let lifeExpMerc = 100 - (this.age * 365)/88;
+  let lifeExpMerc = this.lifeExpectancy - (this.age * 365)/88;
   return Math.abs(lifeExpMerc);
 };

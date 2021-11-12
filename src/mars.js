@@ -1,5 +1,6 @@
-export function Mars(age) {
+export function Mars(age, lifeExpectancy) {
 this.age = age;
+this.lifeExpectancy = lifeExpectancy;
 };
 
 Mars.prototype.calculateMarsAge = function() {
@@ -8,6 +9,6 @@ Mars.prototype.calculateMarsAge = function() {
 }
 
 Mars.prototype.lifeExpMars = function() {
-  let lifeExpMar = 100 - (this.age * 365)/687;
+  let lifeExpMar = this.lifeExpectancy - (this.age * 365)/687;
   return Math.abs(lifeExpMar);
 };

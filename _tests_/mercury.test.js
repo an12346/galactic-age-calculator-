@@ -9,8 +9,8 @@ describe("Mercury", () => {
   });
 
   test("should calculate an estimated remaining years to live on Mercury", () => {
-    let m = new Mercury(23);
-    expect(m.lifeExpMercury()).toEqual(4.602272727272734);
+    let mer = new Mercury(23, 75);
+    expect(mer.lifeExpMercury()).toEqual(20.397727272727266);
   });
 });
 
