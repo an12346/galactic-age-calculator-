@@ -9,6 +9,6 @@ describe("Mars", () => {
 
   test("should calculate an estimated remaining years to live on Mars", () => {
     let mar = new Mars(30);
-    expect(mar.lifeExpMars()).toEqual(1);
+    expect(mar.lifeExpMars()).toEqual(84.06113537117903);
   });
 });
