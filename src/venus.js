@@ -7,5 +7,8 @@ Venus.prototype.calculateVenusAge = function() {
   return venusAge;
 };
 
-
+Venus.prototype.lifeExpVenus = function() {
+  let lifeExpVen = 100 - (this.age * 365)/225;
+  return Math.abs(lifeExpVen);
+};
 
