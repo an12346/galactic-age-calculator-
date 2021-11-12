@@ -5,6 +5,6 @@ describe("Mercury", () => {
 
   test("should calulate Mercury age from Earth age", () => {
     let merAge = new Mercury(23);
-    expect(merAge.calculateMerAge()).toEqual(95.4);
+    expect(merAge.calculateMerAge()).toEqual(95.39772727272727);
   });
 });

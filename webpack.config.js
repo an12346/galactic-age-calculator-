@@ -15,7 +15,7 @@ devtool: 'eval-source-map',
 plugins: [
   new CleanWebpackPlugin(),
   new HtmlWebpackPlugin({
-    title: 'Shape Tracker',
+    title: 'Galactic Age Calculator',
     template: './src/index.html',
     inject: 'body'
   })

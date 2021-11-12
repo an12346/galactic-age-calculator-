@@ -1,8 +1,8 @@
-export default function Mercury(age) {
+export function Mercury(age) {
   this.age = age;
-}
+};
 
 Mercury.prototype.calculateMerAge = function() {
-  let mercuryYears = (this.age * 365)/88;
-  return mercuryYears;
+  let mercuryAge = (this.age * 365)/88;
+  return mercuryAge;
 };
