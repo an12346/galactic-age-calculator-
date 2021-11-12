@@ -6,4 +6,9 @@ describe("Venus", () => {
     let venAge = new Venus(23);
     expect(venAge.calculateVenusAge()).toEqual(37.31111111111111);
   });
+
+  test("should calculate an estimated remaining years to live on Venus", () => {
+    let v = new Venus(23);
+    expect(v.lifeExpVenus()).toEqual(1);
+  });
 });
