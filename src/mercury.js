@@ -7,7 +7,7 @@ Mercury.prototype.calculateMerAge = function() {
   return mercuryAge;
 };
 
-//Mercury.prototype.lifeExpMercury = function() {
-  //let lifeExpMerc = (100 - (this.age * 365)/88);
-  //return lifeExpMerc;
-//};
+Mercury.prototype.lifeExpMercury = function() {
+  let lifeExpMerc = (100 - (this.age * 365)/88);
+  return lifeExpMerc;
+};
