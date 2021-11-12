@@ -1,14 +1,17 @@
-export function Mercury(age, lifeExpectancy) {
-  this.age = age;
-  this.lifeExpectancy = lifeExpectancy;
-};
+export class Mercury {
+  constructor(age, lifeExpectancy) {
+    this.age = age;
+    this.lifeExpectancy = lifeExpectancy;
+  };
 
-Mercury.prototype.calculateMerAge = function() {
-  let mercuryAge = (this.age * 365)/88;
-  return mercuryAge;
-};
+  calculateMerAge() {
+    let mercuryAge = (this.age * 365)/88;
+    return mercuryAge;
+  };
 
-Mercury.prototype.lifeExpMercury = function() {
-  let lifeExpMerc = this.lifeExpectancy - (this.age * 365)/88;
-  return Math.abs(lifeExpMerc);
+  lifeExpMercury() {
+    let lifeExpMerc = this.lifeExpectancy - (this.age * 365)/88;
+    return Math.abs(lifeExpMerc);
+  };
+
 };
