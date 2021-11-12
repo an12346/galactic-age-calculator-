@@ -8,7 +8,7 @@ describe("Jupiter", () => {
   });
 
   test("should calculate an estimated remaining years to live on Jupiter", () => {
-    let jup = new Jupiter(50);
+    let jup = new Jupiter(50, 100);
     expect(jup.lifeExpJupiter()).toEqual(95.83333333333333);
   });
 });

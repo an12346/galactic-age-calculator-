@@ -1,5 +1,6 @@
-export function Jupiter(age) {
+export function Jupiter(age, lifeExpectancy) {
   this.age = age;
+  this.lifeExpectancy = lifeExpectancy
 };
 
 Jupiter.prototype.calculateJupiterAge = function() {
@@ -8,6 +9,6 @@ Jupiter.prototype.calculateJupiterAge = function() {
 };
 
 Jupiter.prototype.lifeExpJupiter = function() {
-  let lifeExpJup = 100 - (this.age * 365)/4380;
+  let lifeExpJup = this.lifeExpectancy - (this.age * 365)/4380;
   return Math.abs(lifeExpJup);
 };
