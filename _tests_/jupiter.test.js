@@ -6,4 +6,9 @@ describe("Jupiter", () => {
     let jupAge = new Jupiter(50);
     expect(jupAge.calculateJupiterAge()).toEqual(4.166666666666667);
   });
+
+  test("should calculate an estimated remaining years to live on Jupiter", () => {
+    let jup = new Jupiter(50);
+    expect(jup.lifeExpJupiter()).toEqual(1);
+  });
 });
