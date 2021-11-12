@@ -1,5 +1,7 @@
-1. Create constructor for Mercury years
-2. Create test for Mercury constructor 
+1. Create constructor for Mercury years ~
+2. Create test for Mercury constructor ~
+3. Commit red test ~
+3. Pass Test
 3. Commit test 
 4. Create constructor for Venus years
 5. Create test for Venus constructor
