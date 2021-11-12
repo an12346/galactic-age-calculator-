@@ -11,17 +11,17 @@
 
 ## Description
 
-This is a programming language suggester, which has the user answer five questions, click the "Results" button and then the program displays which language the user should learn, based on their answers. The possible language types are C#, Ruby, JavaScript and Python. Select boxes are used to display answer choices. 
+This is a galactic age calculator that generates a user's age on different planets. The options for the planets are Mercury, Venus, Jupiter, and Mars. This program also calculates the number of years the user has left to live on a particular planet based on their inputted age and life expectancy. 
 
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop
-* Navigate to the top level of the directory: programming-language-suggester
+* Navigate to the top level of the directory: galactic-age-calculator
 * Open index.html
 
 ## Known Bugs
 
-* The "Results" button does not reset the form fields after a second click
+* The results don't show after clicking on a button
 
 ## License
 
