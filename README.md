@@ -21,7 +21,7 @@ This is a galactic age calculator that generates a user's age on different plane
 
 ## Known Bugs
 
-* The results don't show after clicking on a button
+* The results don't show after clicking on a submit button
 
 ## License
 
