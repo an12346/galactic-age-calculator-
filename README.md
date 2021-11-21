@@ -8,6 +8,8 @@
 * _HTML_
 * _CSS_
 * _JavaScript_
+* _Webpack_
+* _Jest_
 
 ## Description
 
@@ -16,8 +18,12 @@ This is a galactic age calculator that generates a user's age on different plane
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop
-* Navigate to the top level of the directory: galactic-age-calculator
-* Open index.html
+* Open the file: galactic-age-calculator
+* Install dependencies in the root directory using the command: npm install
+* To see if each test is passing, use the command: npm test
+* Next, use the command: npm run build
+* Then, to see the project in your web browser, use the command: npm run start
+
 
 ## Known Bugs
 

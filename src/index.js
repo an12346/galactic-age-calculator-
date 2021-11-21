@@ -42,8 +42,8 @@ $("#mars-form").submit(function(event) {
   let mars = new Mars(marsAge);
   let ageResult = mars.calculateMarsAge();
 
-  let marsExp = $("#mars-exp").val();
-  let marsExp = new Mars (marsExp);
+  let marExp = $("#mars-exp").val();
+  let marsExp = new Mars (marExp);
   let expResult = marsExp.lifeExpMars();
 
   $("#age-results").append(`<p> Your age on Mars is ${ageResult} years old </p>`);
@@ -58,7 +58,7 @@ $("#jupiter-form").submit(function(event) {
 
   let jupExp = $("#jupiter-exp").val();
   let jupiterExp = new Jupiter(jupExp);
-  let expResult = jupiterExp.lifeExpVenus();
+  let expResult = jupiterExp.lifeExpJupiter();
 
   $("#age-results").append(`<p> Your age on Jupiter is ${ageResult} years old </p>`);
   $("#exp-results").append(`<p> You have ${expResult} more years on Jupiter </p>`);
